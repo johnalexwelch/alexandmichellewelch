@@ -1,5 +1,29 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	nav(class="navbar navbar-default")
+		div(class="container-fluid")
+			div(class="navbar-header")
+				button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="")
+					span(class="sr-only") Toggle Navigation
+					span(class="icon-bar")
+					span(class="icon-bar")
+					span(class="icon-bar")
+				a(class="navbar-brand" href="#") Brand
+			div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
+				ul(class="nav navbar-nav")
+					li(class="active")
+						a(href="#") Our Story
+						span(class="sr-only") (current)
+					li
+						a(href="#") The Proposal
+					li
+						a(href="#") Photos
+					li
+						a(href="#") The Wedding
+					li
+						a(href="#") Registry
+					li
+						a(href="#") Guestbook
+	h1= title
+	p Welcome to #{title}

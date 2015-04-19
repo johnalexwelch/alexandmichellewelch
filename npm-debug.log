@@ -1,26 +1,141 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'reload' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.32
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info prestart wedding@0.0.0
-6 info start wedding@0.0.0
-7 verbose unsafe-perm in lifecycle true
-8 info wedding@0.0.0 Failed to exec start script
-9 error wedding@0.0.0 start: `node ./bin/www`
-9 error Exit status 8
-10 error Failed at the wedding@0.0.0 start script.
-10 error This is most likely a problem with the wedding package,
-10 error not with npm itself.
-10 error Tell the author that this fails on your system:
-10 error     node ./bin/www
-10 error You can get their info via:
-10 error     npm owner ls wedding
-10 error There is likely additional logging output above.
-11 error System Darwin 14.1.0
-12 error command "node" "/usr/local/bin/npm" "start"
-13 error cwd /Users/jwelch/Dropbox/Projects/Webapps/wedding
-14 error node -v v0.10.32
-15 error npm -v 1.4.28
-16 error code ELIFECYCLE
-17 verbose exit [ 1, true ]
+4 verbose cache add [ 'reload', null ]
+5 verbose cache add name=undefined spec="reload" args=["reload",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'reload',
+6 verbose parsed url   path: 'reload',
+6 verbose parsed url   href: 'reload' }
+7 silly lockFile d6e6e576-reload reload
+8 verbose lock reload /Users/jwelch/.npm/d6e6e576-reload.lock
+9 silly lockFile d6e6e576-reload reload
+10 silly lockFile d6e6e576-reload reload
+11 verbose addNamed [ 'reload', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile a7c17017-reload reload@
+14 verbose lock reload@ /Users/jwelch/.npm/a7c17017-reload.lock
+15 silly addNameRange { name: 'reload', range: '*', hasData: false }
+16 verbose request where is /reload
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 84138f5aa7a6d70d
+19 verbose url raw /reload
+20 verbose url resolving [ 'https://registry.npmjs.org/', './reload' ]
+21 verbose url resolved https://registry.npmjs.org/reload
+22 verbose request where is https://registry.npmjs.org/reload
+23 info trying registry request attempt 1 at 09:11:26
+24 http GET https://registry.npmjs.org/reload
+25 http 200 https://registry.npmjs.org/reload
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"6AW1C59TQVRH70ESD2MLC20AD"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '8645',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sun, 19 Apr 2015 14:11:25 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-ord1735-ORD',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1429452685.758626,VS0,VE172',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'reload', range: '*', hasData: true }
+28 silly addNameRange versions [ 'reload', [ '0.0.0', '0.0.1', '0.0.2', '0.1.0' ] ]
+29 verbose addNamed [ 'reload', '0.1.0' ]
+30 verbose addNamed [ '0.1.0', '0.1.0' ]
+31 silly lockFile e8699289-reload-0-1-0 reload@0.1.0
+32 verbose lock reload@0.1.0 /Users/jwelch/.npm/e8699289-reload-0-1-0.lock
+33 silly lockFile 5353adea-pmjs-org-reload-reload-0-1-0-tgz https://registry.npmjs.org/reload/-/reload-0.1.0.tgz
+34 verbose lock https://registry.npmjs.org/reload/-/reload-0.1.0.tgz /Users/jwelch/.npm/5353adea-pmjs-org-reload-reload-0-1-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/reload/-/reload-0.1.0.tgz',
+35 verbose addRemoteTarball   'f3a4fcd64cd72ec2a861a8cfa5195ef17c034e31' ]
+36 info retry fetch attempt 1 at 09:11:26
+37 verbose fetch to= /var/folders/rx/59j8hc1d7gd8r6_4c0dqws000000gn/T/npm-39346-p6fww2sr/registry.npmjs.org/reload/-/reload-0.1.0.tgz
+38 http GET https://registry.npmjs.org/reload/-/reload-0.1.0.tgz
+39 http 200 https://registry.npmjs.org/reload/-/reload-0.1.0.tgz
+40 silly lockFile 5353adea-pmjs-org-reload-reload-0-1-0-tgz https://registry.npmjs.org/reload/-/reload-0.1.0.tgz
+41 silly lockFile 5353adea-pmjs-org-reload-reload-0-1-0-tgz https://registry.npmjs.org/reload/-/reload-0.1.0.tgz
+42 silly lockFile e8699289-reload-0-1-0 reload@0.1.0
+43 silly lockFile e8699289-reload-0-1-0 reload@0.1.0
+44 silly lockFile a7c17017-reload reload@
+45 silly lockFile a7c17017-reload reload@
+46 silly resolved [ { name: 'reload',
+46 silly resolved     version: '0.1.0',
+46 silly resolved     description: 'Node.js module to refresh and reload your code in your browser when your code changes. No browser plugins required.',
+46 silly resolved     repository: { type: 'git', url: 'git@github.com:jprichardson/reload.git' },
+46 silly resolved     keywords: [ 'reload', 'refresh', 'http', 'express', 'development' ],
+46 silly resolved     author: { name: 'JP Richardson', email: 'jprichardson@gmail.com' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     dependencies:
+46 silly resolved      { sockjs: '~0.3.5',
+46 silly resolved        supervisor: '~0.5.6',
+46 silly resolved        commander: '~2.0.0',
+46 silly resolved        express: '~3.4.0',
+46 silly resolved        'cli-color': '~0.2.3',
+46 silly resolved        open: '0.0.4',
+46 silly resolved        death: '~0.1.0' },
+46 silly resolved     devDependencies: {},
+46 silly resolved     main: './lib/reload.js',
+46 silly resolved     scripts: { test: 'mocha test' },
+46 silly resolved     bin: { reload: './bin/reload' },
+46 silly resolved     _id: 'reload@0.1.0',
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'f3a4fcd64cd72ec2a861a8cfa5195ef17c034e31',
+46 silly resolved        tarball: 'http://registry.npmjs.org/reload/-/reload-0.1.0.tgz' },
+46 silly resolved     _from: 'reload@',
+46 silly resolved     _npmVersion: '1.2.17',
+46 silly resolved     _npmUser: { name: 'jp', email: 'jprichardson@gmail.com' },
+46 silly resolved     maintainers: [ [Object], [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _shasum: 'f3a4fcd64cd72ec2a861a8cfa5195ef17c034e31',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/reload/-/reload-0.1.0.tgz' } ]
+47 info install reload@0.1.0 into /usr/local/lib
+48 info installOne reload@0.1.0
+49 verbose lib/node_modules/reload unbuild
+50 verbose tar unpack /Users/jwelch/.npm/reload/0.1.0/package.tgz
+51 silly lockFile 9abbb566-sr-local-lib-node-modules-reload tar:///usr/local/lib/node_modules/reload
+52 verbose lock tar:///usr/local/lib/node_modules/reload /Users/jwelch/.npm/9abbb566-sr-local-lib-node-modules-reload.lock
+53 silly lockFile 87e21b62-lch-npm-reload-0-1-0-package-tgz tar:///Users/jwelch/.npm/reload/0.1.0/package.tgz
+54 verbose lock tar:///Users/jwelch/.npm/reload/0.1.0/package.tgz /Users/jwelch/.npm/87e21b62-lch-npm-reload-0-1-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/reload'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/reload']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/reload',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/reload',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.1.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "reload"
+60 error cwd /Users/jwelch/Dropbox/Projects/Webapps/wedding
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/reload
+64 error fstream_path /usr/local/lib/node_modules/reload
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/reload'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
