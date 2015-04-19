@@ -1,9 +1,9 @@
 extends layout
 
 block content
-	div(class="jumbotron jumbotron-header")
-		img(class='headerphoto' src='images/shoe_header.jpg')
-	nav(class="navbar navbar-default custom-nav")
+	section(class='module parallax parallax-1')
+
+	nav(class="navbar navbar-default custom-nav" roll="Navigation")
 		div(class="container-fluid")
 			div(class="navbar-header")
 				button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
@@ -12,20 +12,63 @@ block content
 					span(class="icon-bar")
 					span(class="icon-bar")
 			div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
-				ul(class="nav navbar-nav")
-					li(class="active")
-						a(href="#") Our Story
+				ul(class="nav navbar-nav ")
+					li(class="active top-nav" )
+						a(href="#proposal-anchor" class="jumper") Proposal
 						span(class="sr-only") (current)
-					li
-						a(href="#") The Proposal
-					li
-						a(href="#") Photos
-					li
-						a(href="#") The Wedding
-					li
-						a(href="#") Registry
-					li
-						a(href="#") Guestbook
+					li(class="top-nav")
+						a(href="#" id='photos-link' class="jumper") Photos
+					li(class="top-nav")
+						a(href="#party-anchor" class="jumper") Bridal Party
+					li(class="top-nav")
+						a(href="#wedding-anchor" class="jumper" ) Wedding
+					li(class="top-nav")
+						a(href="#registry-anchor"  class="jumper") Registry
+					li(class="top-nav")
+						a(href="#guestbook-anchor" class="jumper") Guestbook
+
+	section(class='module content')
+		div(class='container' id="proposal-anchor")
+			h2 The Proposal
+				section(id="cd-timeline" class="cd-container")
+
+					div(class="cd-timeline-block")
+						div(class="cd-timeline-img cd-picture")
+							img(src="img/cd-icon-picture.svg" alt="Picture")
+						div(class="cd-timeline-content")
+							h2 Title of section 1
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+							span(class="cd-date") Jan 14
+
+					div(class="cd-timeline-block")
+						div(class="cd-timeline-img cd-picture")
+							img(src="img/cd-icon-picture.svg" alt="Picture")
+						div(class="cd-timeline-content")
+							h2 Title of section 1
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+							span(class="cd-date") Jan 14
+
+	section(class='module content')
+		div(class='container' id='photo-anchor')
+			h2 Engagement Photos
+
+	section(class='module content')
+		div(class='container' id='party-anchor')
+			h2 Our Bridal Party
+
+	section(class='module content')
+		div(class='container' id='wedding-anchor')
+			h2 The Wedding
+
+	section(class='module content')
+		div(class='container' id='registry-anchor')
+			h2 Registry
+
+	section(class='module content')
+		div(class='container' id='guestbook-anchor')
+			h2 Sign our Guestbook
+
+
 	div(class='test')
 		br
 		br
