@@ -1,8 +1,30 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+html,body {height:100%;}
+
+.jumbotron-header{
+	margin: 0px;
+	padding:0px;
+}
+.headerphoto{
+	width:100%;
+	padding-top:0%;
+}
+
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.custom-nav {
+	position:absolute;
+	width:100%;
+}
+
+.fixed {
+	position:fixed;
+	top:0;
 }
