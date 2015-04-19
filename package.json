@@ -15,8 +15,7 @@
     "serve-favicon": "*",
     "mongodb": "1.4",
     "mongoskin": "*",
-    "stylus":"*",
-    "reload":"*"
+    "stylus":"*"
   }
 }
 
