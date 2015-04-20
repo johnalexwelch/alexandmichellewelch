@@ -24,11 +24,16 @@ var $lis = $('li').click(function(e) {
 $(document).ready(function() {
     $(".jumper").on("click", function( e ) {
 
-        e.preventDefault();
-
         $("body, html").animate({
             scrollTop: $( $(this).attr('href') ).offset().top
         }, 2000);
 
     });
+
+    $('.img-responsive').click(function(){
+  		var images = $(this).attr("src");
+  		$('.jumbotron-photo').css('background',' url('+images+') no-repeat center center');
+  		$('.jumbotron-photo').css('background-size','contain');
+	});
 });
+

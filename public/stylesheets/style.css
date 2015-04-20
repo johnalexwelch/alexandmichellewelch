@@ -14,14 +14,24 @@ html,body {height:100%;}
 	width: 100%;
 }
 .top-nav{
-	width:16%;
+	width:14.2%;
 	text-align: center;
 }
-
 
 .engagement-video{
 	text-align: center;
 	padding-bottom:  150px;
+}
+
+.jumbotron-photo{
+	background: url('../images/engagement/img_3907.jpg');
+	height: 500px;
+	background-size: 100%;
+
+}
+
+.img-responsive{
+	height: 50px;
 }
 
 /* Customize the navbar links to be fill the entire space of the .navbar */
@@ -29,6 +39,18 @@ html,body {height:100%;}
 	position:absolute;
 	width:100%;
 }
+
+.gallery > ul {
+          padding:0 0 0 0;
+          margin:0 0 0 0;
+}
+.gallery > ul li {
+      list-style:none;
+      margin-bottom:5px;
+ }
+ .gallery > ul li img {
+ cursor: pointer;
+ }
 
 .fixed {
 	position:fixed;
