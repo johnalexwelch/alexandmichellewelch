@@ -1,7 +1,7 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   /*background-color: rgba(255,255,255,0.6);*/
-  background-color: #888888;
+  background-color: #ffffff;
 }
 
 a {
@@ -18,6 +18,11 @@ html,body {height:100%;}
 	text-align: center;
 }
 
+
+.engagement-video{
+	text-align: center;
+	padding-bottom:  150px;
+}
 
 /* Customize the navbar links to be fill the entire space of the .navbar */
 .custom-nav {
@@ -43,12 +48,12 @@ section.module:last-child {
   margin-bottom: 0;
 }
 section.module h2 {
-  margin-bottom: 40px;
+  margin-bottom: 5px;
   font-family: "Roboto Slab", serif;
   font-size: 30px;
 }
 section.module p {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-size: 16px;
   font-weight: 300;
 }
@@ -56,7 +61,7 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 40px 15px;
+  padding: 20px 15px;
 }
 section.module.parallax {
   height: 95%;
@@ -69,16 +74,17 @@ section.module.parallax {
 section.module.parallax-1 {
   background-image: url("../images/shoe_header.jpg");
 }
-/*section.module.parallax-2 {
-  background-image: url("../img/demo/_small/2.jpg");
+section.module.parallax-2 {
+  background-image: url("../images/happy.gif");
 }
-section.module.parallax-3 {
+
+/*section.module.parallax-3 {
   background-image: url("../img/demo/_small/3.jpg");
 }*/
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 42px;
+    font-size: 32px;
   }
   section.module p {
     font-size: 20px;
@@ -120,6 +126,7 @@ Modules - reusable parts of our design
 Main components
 
 -------------------------------- */
+
 header {
   height: 200px;
   line-height: 200px;
@@ -286,7 +293,7 @@ header h1 {
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-size: 1.25rem;
   }
   .cd-timeline-content p {
@@ -342,3 +349,6 @@ header h1 {
 
 }
 
+.proposal-container{
+	background-color: #e9f0f5;
+}
