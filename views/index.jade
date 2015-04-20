@@ -14,26 +14,30 @@ block content
 			div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
 				ul(class="nav navbar-nav ")
 					li(class="active top-nav" )
-						a(href="#proposal-anchor" class="jumper") Proposal
+						a(href="#proposal-anchor" class="jumper") Our Story
 						span(class="sr-only") (current)
 					li(class="top-nav")
 						a(href="#photo-anchor" class="jumper") Photos
 					li(class="top-nav")
-						a(href="#party-anchor" class="jumper") Bridal Party
+						a(href="#party-anchor" class="jumper") Wedding Party
 					li(class="top-nav")
-						a(href="#wedding-anchor" class="jumper" ) Wedding
+						a(href="#info-anchor" class="jumper") Information
+					li(class="top-nav")
+						a(href="#wedding-anchor" class="jumper" ) The Big Day
 					li(class="top-nav")
 						a(href="#registry-anchor"  class="jumper") Registry
 					li(class="top-nav")
 						a(href="#guestbook-anchor" class="jumper") Guestbook
 
-	section(class='module content')
+	section(class='module content proposal-container')
 		div(class='container' id="proposal-anchor")
 			div(class="section-header")
 				h1 The Proposal
+			div(class="section-header")
+				h1 December 2, 2014
 			section(id="cd-timeline" class="cd-container")
 				div(class="cd-timeline-block")
-					div(class="cd-timeline-img cd-picture")
+					div(class="cd-timeline-img cd-movie")
 						img(src="images/cd-icon-picture.svg" alt="Picture")
 					div(class="cd-timeline-content")
 						h2 Alex Wakes Up
@@ -49,11 +53,11 @@ block content
 						span(class="cd-date") 7:30ish....
 
 				div(class="cd-timeline-block")
-					div(class="cd-timeline-img cd-picture")
-						img(src="images/cd-icon-picture.svg" alt="Picture")
+					div(class="cd-timeline-img cd-location")
+						img(src="images/cd-icon-location.svg" alt="Picture")
 					div(class="cd-timeline-content")
 						h2 Alex Sells His Car
-						p What a relief this is. It has been quite the ordeal to get to this point and to finally sign the last documentation feels amazing.
+						p What a relief this is. But even better, what an excuse to stay home from work and to borrow Michelle's car.
 						span(class="cd-date") 9:00 AM
 
 				div(class="cd-timeline-block")
@@ -69,8 +73,8 @@ block content
 						img(src="images/cd-icon-picture.svg" alt="Picture")
 					div(class="cd-timeline-content")
 						h2 Alex Goes Shopping
-						p Instead of going straight to work, Alex takes a little detour to Target. He has a plan. He has a solid game plan... he's only going to buy what he needs. But the parrallel universe of the store is too much and he winds up in the electronics section debating if he wants to buy a Go-pro or not. No... not this time.
-						p You are here for just a few items. A small christmas tree. Check. Christmas lights. Check. A wreath? Well that wasn't on the list either but it looks cool. Ok so add a wreath to the list and head up to check out.
+						p Instead of going straight to work, Alex takes a little detour to Target. He has a plan. He has a solid game plan. Michelle has always said she wanted to decorate her apartment for Christms.
+						p You are here for just a few items. A small christmas tree. Check. Christmas lights. Check. A wreath? Well that wasn't on the list but it looks cool. Ok so add a wreath to the list and head up to check out.
 						p While standing in line he begins to question... does he really need a wreath? No better not. Returns the wreath and somehow some keurig cups get into his basket. Well played Target. Well played.
 						span(class="cd-date") 10:00 AM
 
@@ -80,7 +84,7 @@ block content
 					div(class="cd-timeline-content")
 						h2 Michelle Has A Meeting
 						p Because it's a normal day right?
-						span(class="cd-date") 10:30 PM
+						span(class="cd-date") 10:30 AM
 
 				div(class="cd-timeline-block")
 					div(class="cd-timeline-img cd-picture")
@@ -89,7 +93,7 @@ block content
 						h2 Alex Starts Interior Decorating
 						p Christmas lights take WAY longer to put up than you would think. The tree was easy enough, but he decided to use a desk chair to reach the high points. Things didn't work out the way he wanted when he fell off it and took all the lights down with him. Oh well... time to start over.
 						p Once everything is up it's time to place a little surprise by the door.
-						span(class="cd-date") 11:00 PM
+						span(class="cd-date") 11:00 AM
 
 				div(class="cd-timeline-block")
 					div(class="cd-timeline-img cd-picture")
@@ -151,18 +155,90 @@ block content
 						p Michelle then turns around to give Alex a hug but finds him down on one knee and yells 'Shut Up!' and holds her hand to her chest.
 						p Alex panics and forgets everything he wanted to say. Try's to ad-lib. Not much comes out. But panic subsides when Michelle gives him her hand and he can slide the ring on.
 						span(class="cd-date") 8:30 PM
+			div(class='engagement-video' )
+				video(class ="span" width="60%" controls)
+					source(src="video/proposal.mov")
+
+	section(class='module parallax parallax-2')
 
 	section(class='module content')
 		div(class='container' id='photo-anchor')
 			h2 Engagement Photos
+			div(class='jumbotron jumbotron-photo')
+			div(class='container gallery')
+				ul(class='row')
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3862.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3868.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3879.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3894.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3899.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3906.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3907.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3915.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3944.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3946.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_3952.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4007.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4008.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4010.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4025.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4034.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4038.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4045.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4052.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4058.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4061.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4069.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4077.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4094.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4100.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4105.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4116.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4132.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4155_1.jpg")
+					li(class="col-lg-1 col-md-1 col-sm-3 col-xs-4")
+						img(class="img-responsive" src="images/engagement/IMG_4178.jpg")
 
 	section(class='module content')
 		div(class='container' id='party-anchor')
 			h2 Our Bridal Party
 
 	section(class='module content')
+		div(class='container' id='info-anchor')
+			h2 Information
+
+	section(class='module content')
 		div(class='container' id='wedding-anchor')
-			h2 The Wedding
+			h2 The Big Day
 
 	section(class='module content')
 		div(class='container' id='registry-anchor')
