@@ -1,6 +1,7 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: BLACK;
+  /*background-color: rgba(255,255,255,0.6);*/
+  background-color: #888888;
 }
 
 a {
@@ -30,6 +31,11 @@ html,body {height:100%;}
 	z-index: 9999999
 }
 
+.section-header{
+	margin-top: 10%;
+	width: 100%;
+	text-align: center;
+}
 
 
 /* Paralax CSS */
@@ -145,7 +151,7 @@ header h1 {
 #cd-timeline::before {
   /* this is the vertical line */
   content: '';
-  position: ABSOLUTE;
+  position: absolute;
   top: 0;
   left: 18px;
   height: 100%;
@@ -227,11 +233,14 @@ header h1 {
 
   }
 }
+
+
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
   background: white;
   border-radius: 0.25em;
+  border-color: #888888;
   padding: 1em;
 
 }
@@ -243,10 +252,7 @@ header h1 {
 .cd-timeline-content h2 {
   color: #303e49;
 }
-.cd-timeline-content p,  .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
-}
+
 .cd-timeline-content .cd-date {
   display: inline-block;
 }
@@ -266,7 +272,6 @@ header h1 {
 }
 .cd-timeline-content .cd-date {
   float: left;
-  padding: .8em 0;
   opacity: .7;
 }
 .cd-timeline-content::before {
@@ -277,7 +282,7 @@ header h1 {
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid white;
+  border-right: 7px solid #888888;
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
@@ -289,8 +294,8 @@ header h1 {
     font-size: 1rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 50px;
+
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -313,8 +318,8 @@ header h1 {
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 50px;
+
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
