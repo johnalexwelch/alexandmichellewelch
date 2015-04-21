@@ -28,6 +28,8 @@ html,body {height:100%;}
 
 }
 
+
+
 .jumbo1{background: url('../images/img_3862.jpg');}
 .jumbo2{background: url('../images/img_3868.jpg');}
 .jumbo3{background: url('../images/img_3879.jpg');}
@@ -68,6 +70,37 @@ html,body {height:100%;}
 
 .carousel-inner{
 	height: 500px;
+}
+
+#party-anchor{
+	overflow: auto;
+}
+
+.person{
+	background:url("../images/bg-bridalparty.png") no-repeat scroll 0 0 transparent;
+	height:350px;
+	padding:25px 50px 40px 70px;
+	text-align: left;
+	width:100%;
+}
+
+.name{
+	color:#555555;
+	font-size: 30px;
+	font-style: italic;
+	margin: 0 0 5px;
+}
+
+.title{
+	color:#999999;
+	font-size: 18px;
+}
+
+.bio{
+	color: #8F8F9F;
+	font-size: 12px;
+	line-height: 1.5;
+	margin:30px 0 0;
 }
 
 
@@ -173,9 +206,13 @@ section.module.parallax-2 {
   background-image: url("../images/happy.gif");
 }
 
-/*section.module.parallax-3 {
-  background-image: url("../img/demo/_small/3.jpg");
-}*/
+section.module.parallax-3 {
+  background-image: url("../images/savethedate.jpg");
+}
+
+section.module.parallax-4 {
+  background-image: url("../images/laughing.jpg");
+}
 
 @media all and (min-width: 600px) {
   section.module h2 {
@@ -194,7 +231,14 @@ section.module.parallax-2 {
   }
 }
 
+.photo-section{
+	height: 750px;
+	text-align: center;
+}
 
+.photo-anchor{
+	padding-top:10%;
+}
 
 /* Timeline CSS */
 
