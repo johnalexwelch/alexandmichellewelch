@@ -30,10 +30,5 @@ $(document).ready(function() {
 
     });
 
-    $('.img-responsive').click(function(){
-  		var images = $(this).attr("src");
-  		$('.jumbotron-photo').css('background',' url('+images+') no-repeat center center');
-  		$('.jumbotron-photo').css('background-size','contain');
-	});
 });
 

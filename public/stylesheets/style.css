@@ -24,15 +24,52 @@ html,body {height:100%;}
 }
 
 .jumbotron-photo{
-	background: url('../images/img_3907.jpg');
 	height: 500px;
-	background-size: 100%;
 
 }
 
-.img-responsive{
-	height: 50px;
+.jumbo1{background: url('../images/img_3862.jpg');}
+.jumbo2{background: url('../images/img_3868.jpg');}
+.jumbo3{background: url('../images/img_3879.jpg');}
+.jumbo4{background: url('../images/img_3894.jpg');}
+.jumbo5{background: url('../images/img_3899.jpg');}
+.jumbo6{background: url('../images/img_3906.jpg');}
+.jumbo7{background: url('../images/img_3907.jpg');}
+.jumbo8{background: url('../images/img_3915.jpg');}
+.jumbo9{background: url('../images/img_3944.jpg');}
+.jumbo11{background: url('../images/img_3946.jpg');}
+.jumbo12{background: url('../images/img_3952.jpg');}
+.jumbo13{background: url('../images/img_4007.jpg');}
+.jumbo14{background: url('../images/img_4008.jpg');}
+.jumbo15{background: url('../images/img_4010.jpg');}
+.jumbo16{background: url('../images/img_4025.jpg');}
+.jumbo17{background: url('../images/img_4034.jpg');}
+.jumbo18{background: url('../images/img_4038.jpg');}
+.jumbo19{background: url('../images/img_4045.jpg');}
+.jumbo20{background: url('../images/img_4052.jpg');}
+.jumbo21{background: url('../images/img_4058.jpg');}
+.jumbo22{background: url('../images/img_4061.jpg');}
+.jumbo23{background: url('../images/img_4069.jpg');}
+.jumbo24{background: url('../images/img_4077.jpg');}
+.jumbo25{background: url('../images/img_4094.jpg');}
+.jumbo26{background: url('../images/img_4100.jpg');}
+.jumbo27{background: url('../images/img_4105.jpg');}
+.jumbo28{background: url('../images/img_4116.jpg');}
+.jumbo29{background: url('../images/img_4132.jpg');}
+.jumbo30{background: url('../images/img_4155_1.jpg');}
+.jumbo31{background: url('../images/img_4178.jpg');}
+
+.jumbo1, .jumbo2, .jumbo3, .jumbo4, .jumbo5, .jumbo6, .jumbo7, .jumbo8, .jumbo9, .jumbo10, .jumbo11, .jumbo12, .jumbo13, .jumbo14, .jumbo15, .jumbo16, .jumbo17, .jumbo18, .jumbo19, .jumbo20, .jumbo21, .jumbo22, .jumbo23, .jumbo24, .jumbo25, .jumbo26, .jumbo27, .jumbo28, .jumbo29, .jumbo30, .jumbo31{
+	max-height: 100%;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
+
+.carousel-inner{
+	height: 500px;
+}
+
 
 /* Customize the navbar links to be fill the entire space of the .navbar */
 .custom-nav {
@@ -64,6 +101,42 @@ html,body {height:100%;}
 	text-align: center;
 }
 
+#about-us-box-top{
+	background:url("../images/bg-box2-top.png");
+	width: 687px;
+	height:48px;
+	margin-top: 18px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about-us-box-middle{
+	background: url('../images/bg-box2-middle.png');
+	width: 687px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display:block;
+
+}
+
+#about-us-box-middle p{
+	padding: 20px;
+	font-size: 16px;
+}
+
+#about-us-box-bottom{
+	background:url("../images/bg-box2-bottom.png");
+	width: 731px;
+	height: 114px;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 /* Paralax CSS */
 section.module:last-child {
@@ -154,6 +227,7 @@ header {
   line-height: 200px;
   text-align: center;
   background: #303e49;
+
 }
 header h1 {
   color: white;
@@ -186,6 +260,7 @@ header h1 {
   height: 100%;
   width: 4px;
   background: #d7e4ed;
+  background: black;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -374,3 +449,5 @@ header h1 {
 .proposal-container{
 	background-color: #e9f0f5;
 }
+
+
