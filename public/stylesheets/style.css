@@ -8,8 +8,32 @@ a {
   color: #00B7FF;
 }
 
+h1{
+	font-family: 'Parisienne', cursive;
+}
+
+.headline{
+	font-size: 42px;
+	margin-top: 70px;
+}
+
+.engagement-headline{
+	margin-bottom: 30px;
+}
+
 html,body {height:100%;}
 
+.main-headline{
+	text-align:center;
+	padding-top:5%;
+	color:white;
+}
+
+
+
+.main-headline h2{
+	padding-top:10%;
+}
 .nav {
 	width: 100%;
 }
@@ -28,6 +52,34 @@ html,body {height:100%;}
 
 }
 
+.venue-container{
+	overflow:auto;
+
+}
+
+iframe {
+	width:100%;
+    display:block;
+}
+ 
+ .big-day-instructions{
+ 	font-size: 18px;
+ 	text-align:center;
+ 	padding-bottom: 50px;
+ 	padding-top: 30px;
+ }
+
+.venue-photo{
+	display: block;
+	max-width:100%;
+	max-height:100%;
+}
+
+.second-header{
+	text-align:center;
+	color: #888888;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
 
 
 .jumbo1{background: url('../images/img_3862.jpg');}
@@ -177,7 +229,6 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 5px;
-  font-family: "Roboto Slab", serif;
   font-size: 30px;
 }
 section.module p {
@@ -216,10 +267,11 @@ section.module.parallax-4 {
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 32px;
+    font-size: 18px;
+    font-weight: bold;
   }
   section.module p {
-    font-size: 20px;
+    font-size: 14px;
   }
   section.module.parallax h1 {
     font-size: 96px;
@@ -233,7 +285,7 @@ section.module.parallax-4 {
 
 .photo-section{
 	height: 750px;
-	text-align: center;
+
 }
 
 .photo-anchor{
@@ -275,7 +327,7 @@ header {
 }
 header h1 {
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   font-size: 1.125rem;
 }
 @media only screen and (min-width: 1170px) {
@@ -284,8 +336,8 @@ header h1 {
     line-height: 300px;
   }
   header h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 16px;
+
   }
 }
 
@@ -304,7 +356,6 @@ header h1 {
   height: 100%;
   width: 4px;
   background: #d7e4ed;
-  background: black;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -466,7 +517,7 @@ header h1 {
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 50px;
+    font-size: 32px;
 
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
@@ -494,4 +545,10 @@ header h1 {
 	background-color: #e9f0f5;
 }
 
+.main-subheader{
+	font-size: 24px;
+}
 
+.information-div{
+	text-align:center;
+}
