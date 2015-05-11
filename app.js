@@ -6,7 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var stylus = require('stylus');
 var mongo = require('mongoskin');
-var db = mongo.db("mongodb://localhost:27017/wedding", {native_parser:true});
+// var db = mongo.db("mongodb://localhost:27017/wedding", {native_parser:true});
+var db = mongo.db("mongodb://heroku_app36010644:qg50ve6ck4hg5v92gn2tpsjljh@ds031982.mongolab.com:31982/heroku_app36010644", {native_parser:true});
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
