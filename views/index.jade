@@ -5,7 +5,7 @@ block content
 		div(class='main-headline')
 			h1 Alex and Michelle
 			h2(class='main-subheader') September 11, 2015 -  Rockton, Illinois
-	nav(class="navbar navbar-default custom-nav" roll="Navigation")
+	nav(class="navbar navbar-default custom-nav" roll="Navigation" )
 		div(class="container-fluid")
 			div(class="navbar-header")
 				button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
@@ -14,7 +14,7 @@ block content
 					span(class="icon-bar")
 					span(class="icon-bar")
 			div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
-				ul(class="nav navbar-nav ")
+				ul(class="nav navbar-nav" id="main-navigation")
 					li(class="active top-nav" )
 						a(href="#proposal-anchor" class="jumper") Our Story
 						span(class="sr-only") (current)
@@ -330,10 +330,51 @@ block content
 				p This is a big day so put on your best to help us celebrate. Formal attire is requested. Black tie is optional.
 				br
 				h1(class="second-header") Accommodations
-				p Coming Soon!
+				p Please book your rooms prior to August 9th
+				p Please request early-check in at all hotels. This is first come - first serve and based on availability
+				p Regular check in at all hotels is 3 p.m.
+
+				br
+				div(class="row")
+					div(class="col-md-6 col-xs-12")
+						img(src="images/hilton_garden_inn_room.jpg" alt="Picture" class="hotel-pic")
+					div(class="col-md-6 col-xs-12")
+						h3 Hilton Garden Inn
+						p 7675 Walton St, Rockford, IL 61108
+						p (815) 229-3322
+						p $134 / night
+						p
+							a(href="http://hiltongardeninn.hilton.com/en/gi/groups/personalized/R/RFDILGI-MWW-20150910/index.jhtml?WT.mc_id=POG") Website
+				br
+				div(class="row")
+					div(class="col-md-6 col-xs-12")
+						img(src="images/fairfield_inn_and_suites_room.jpg" alt="Picture" class="hotel-pic")
+					div(class="col-md-6 col-xs-12")
+						h3 Fairfield Inn and Suites
+						p 7651 Walton St, Rockford, IL 61108
+						p (815) 398-7400
+						p King : $119 / night - Double Queen : $139 / night
+						p
+							a(href="http://cwp.marriott.com/rfdrf/morenowelch2015") Website
+				br
+				div(class="row")
+					div(class="col-md-6 col-xs-12")
+						img(src="images/ironworks_room.jpg" alt="Picture" class="hotel-pic")
+					div(class="col-md-6 col-xs-12")
+						h3 Ironworks Hotel
+						p 500 Pleasant St, Beloit, WI 53511
+						p (608) 362-5500
+						p Double Queen : $159 / night - Suite : $189 / night
+						p
+							a(href="http://www.ironworkshotel.com/") Website
 				br
 				h1(class="second-header") Parking and Shuttle Service
-				p Coming Soon! 
+				p Complimentary shuttle services will be provided for the Hilton Garden Inn and the Fairfield Inn and Suites
+				p If you plan on taking a shuttle please be aware that they will be leaving promptly at 3:00 pm
+				br
+
+				h1(class="second-header") Children
+				p  To give all our guests the opportunity to let their hair down and have a good time without having to worry about little eyes and ears we politely request no children
 				br
 	section(class='module content')
 		div(class='container' id='wedding-anchor')
@@ -344,15 +385,18 @@ block content
 				br
 				p Ceremony will begin at 4:00 pm and be immediately follwed by cocktail hour, dinner and dancing
 			div(class="row venue-container")
-				div(class="col-md-6 col-lg-6 col-xs12 col-md-offset-3 col-lg-offset-3")
+				div(class="col-md-6 col-lg-6 col-xs-12 col-md-offset-3 col-lg-offset-3")
 					img(class="venue-photo" src="images/pavilion_outside.jpg")
 			div(class="row venue-container")
-				div(class="col-md-6 col-lg-6 col-xs12 col-md-offset-3 col-lg-offset-3")
+				div(class="col-md-6 col-lg-6 col-xs-12 col-md-offset-3 col-lg-offset-3")
 					Iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23542.36620613952!2d-89.169928!3d42.474632!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79ac00acfb7fb356!2sThe+Pavilion+at+Orchard+Ridge+Farms!5e0!3m2!1sen!2sus!4v1429589137090"  frameborder="0" style="border:0")
-			
+
 	section(class='module content')
 		div(class='container' id='registry-anchor')
-			h1(class="headline") Registry - Coming Soon!
+			h1(class="headline") Registry
+				div(class="row registry-row")
+					img(src="images/macy.jpeg" alt="Macy's")
+					img(src="images/crate.png" alt="Crate and Barrel")
 
 	section(class='module content')
 		div(class='container' id='guestbook-anchor')
