@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var stylus = require('stylus');
 var mongo = require('mongoskin');
-var db = mongo.db("mongodb://localhost:27017/alexandmichelle", {native_parser:true});
+var db = mongo.db("mongodb://localhost:27017/wedding", {native_parser:true});
 var routes = require('./routes/index');
 var users = require('./routes/users');
 

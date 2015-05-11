@@ -30,6 +30,8 @@ block content
 						a(href="#registry-anchor"  class="jumper") Registry
 					li(class="top-nav")
 						a(href="#guestbook-anchor" class="jumper") Guestbook
+					li(class="top-nav")
+						a(href="#instagram-anchor" class="jumper") Instagram
 
 	section(class='module content proposal-container')
 		div(class='container' id="proposal-anchor")
@@ -395,9 +397,30 @@ block content
 		div(class='container' id='registry-anchor')
 			h1(class="headline") Registry
 				div(class="row registry-row")
-					img(src="images/macy.jpeg" alt="Macy's")
-					img(src="images/crate.png" alt="Crate and Barrel")
+					a(href="http://www1.macys.com/registry/wedding/guest/?registryId=2240836" target="_blank")
+						img(src="images/macy.jpeg" alt="Macy's")
+					a(href="http://www.crateandbarrel.com/gift-registry/alex-welch/r5304811" target="_blank")
+						img(src="images/crate.png" alt="Crate and Barrel")
 
 	section(class='module content')
 		div(class='container' id='guestbook-anchor')
-			h1(class="headline") Sign our Guestbook - Coming Soon!
+			h1(class="headline") Sign our Guestbook
+			p Feel free to share your thoughts and wishes as we prepare to celebrate our special day.
+			p Not sure what to say? List a couple of your favorite dance floor songs
+			form(id="guestMessage")
+				div(class="form-group")
+					label(for="name") Your name
+					input(type="text" class="form-control" id="name" placeholder="Your name")
+				div(class="form-group")
+					label(for="message") Your message
+					textarea(rows="4" class="form-control" id="message" placeholder="Your message")
+				button(id="btnGuestMessage" class="btn btn-default") Submit
+
+	section(class='module content')
+		div(class='container' id='instagram-anchor')
+			h1(class="headline") Instagram
+			h1(class="second-header")  #morenowelch
+			p If you love Instagram too, please help us document our wedding festivities by tagging your photos with #morenowelch
+			p As you tag them they will become available here, so keep checking back for new photos!
+			iframe(src="//instansive.com/widgets/6503f4b169878cfd1d4317d8a730ca043e8b02b2.html" id="instansive_6503f4b169" name="instansive_6503f4b169"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;")
+
